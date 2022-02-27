@@ -9,7 +9,7 @@ def root():
 @app.route("/style")
 def style():
     return render_template("style.css")
-
+"""
 @app.route("/script")
 def script():
     return render_template("script.js")
@@ -21,6 +21,7 @@ def textResponse():
 @app.route("/health")
 def health():
     return "OK"
+"""
 
 if __name__ == "__main__":
     app.run(debug="true")
