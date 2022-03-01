@@ -1,4 +1,5 @@
 Flask==2.0.3
+gunicorn==0.17.0
 hyperlink==21.0.0
 idna==2.10
 incremental==21.3.0
