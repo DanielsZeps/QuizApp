@@ -2,14 +2,6 @@ attrs==21.2.0
 autobahn==21.11.1
 Automat==20.2.0
 bcrypt==3.2.0
-certifi==2020.12.5
-cffi==1.15.0
-chardet==4.0.0
-click==8.0.4
-colorama==0.4.4
-constantly==15.1.0
-cryptography==36.0.0
-cycler==0.11.0
 docutils==0.17.1
 entangle-python==20201010.2
 Flask==2.0.3
@@ -43,6 +35,3 @@ twisted-iocpsupport==1.0.2
 txaio==21.2.1
 typing-extensions==4.0.1
 urllib3==1.26.4
-ursina==4.0.0
-Werkzeug==2.0.3
-zope.interface==5.4.0
