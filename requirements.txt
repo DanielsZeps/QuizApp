@@ -13,7 +13,6 @@ cycler==0.11.0
 docutils==0.17.1
 entangle-python==20201010.2
 Flask==2.0.3
-gunicorn==0.14.2
 hyperlink==21.0.0
 idna==2.10
 incremental==21.3.0
