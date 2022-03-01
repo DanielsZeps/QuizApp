@@ -19,7 +19,6 @@ pyflakes==2.4.0
 Pygments==2.9.0
 pyparsing==3.0.4
 pyperclip==1.8.2
-pypiwin32==223
 python-dateutil==2.8.2
 requests==2.25.1
 scipy==1.7.3
