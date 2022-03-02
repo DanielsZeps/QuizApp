@@ -15,4 +15,3 @@ scipy==1.7.3
 service-identity==21.1.0
 six==1.16.0
 sympy==1.9
-Werkzeug==0.8.3
