@@ -2,10 +2,24 @@
     <head>
         <title>Quiz Aplikācija! </title>
         <meta charset="UTF-8"/>
+        <script>
+            function returnUserData() {
+                const d = new Date();
+                const xhttp = new XMLHttpRequest();
+                xhttp.onload = function() {
+                    if (this.statu = 200 && this.readyState == 4) {
+                        this.innerHTML = this.responseText;
+                    }
+                }
+                xhttp.open("GET", "/response/" + d.getTime());
+                xhttp.send();
+            }
+        </script>
     </head>
     <body>
         <h1>Šodien taisīsim testu!</h1>
         <p>Šis tests it ļoti svarīgs.</p>
         <h2>Autors - Daniēls Zeps</h2>
+        <button onclick="returnUserData">Return Data</button>
     </body>
 </html>
