@@ -24,5 +24,10 @@ def test():
   parametri = ["Augums", "Svars", "Vecums"]
   return render_template("test.html", param = parametri)
 
+
+@app.route('/response/<response>')
+def response(response):
+  return response
+
 if __name__ == '__main__':
   app.run(debug="true")
